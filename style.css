@@ -2,12 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: hwb(0 96% 4%);
 }
 
 header {
     background-color: #008b8b;
-    color: #fff;
+    color: hsl(0, 0%, 100%);
     padding: 10px;
     text-align: center;
 }
@@ -20,7 +20,7 @@ nav {
 }
 
 nav a {
-    color: #fff;
+    color: hsl(0, 0%, 100%);
     text-decoration: none;
     padding: 8px 15px;
     margin: 0 5px;
@@ -37,8 +37,8 @@ section {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: hwb(0 96% 4%);
+    box-shadow: 0 0 10px #0000001a;
 }
 
 main h2 {
